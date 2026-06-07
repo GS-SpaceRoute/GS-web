@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Questrial&display=swap');
+
+#problema {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../assets/imagens/problema\ background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding-right: 13%;
+}
+
+#textoProblema{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.problema,
+.problema1{
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: limitar(45px, 5vw, 70px);
+    font-weight: 300;
+    line-height: 0.9;
+    margin: 0;
+    position: relative;
+    top: 20px;
+}
+
+.parProblema{
+    color: white;
+    font-family: "Questrial", sans-serif;
+    font-size: limitar(16px, 1.45vw, 25px);
+    line-height: 1.15;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    #problema {
+        justify-content: center;
+        padding: 0 8%;
+        background-position: left center;
+    }
+
+    #textoProblema{
+        width: 100%;
+    }
+}
+.secao_quiz{padding:60px 0}
+#containerQuiz{background:#0d1224;border:1px solid #2a355f;border-radius:12px;padding:24px}
+.resposta_quiz,#btnProxima{display:block;width:100%;margin:10px 0;padding:12px;border-radius:8px;cursor:pointer}
