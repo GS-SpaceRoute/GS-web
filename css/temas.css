@@ -1,0 +1,478 @@
+/* TEMA ROXO */
+body[data-theme="purple"] {
+    background-color: #12051f;
+    color: #f8f1ff;
+}
+
+body[data-theme="purple"] header {
+    background-color: rgba(24, 7, 42, 0.82);
+    border-bottom-color: rgba(218, 181, 255, 0.18);
+}
+
+body[data-theme="purple"] .btn-padrao {
+    background-color: #9c49ff;
+    color: #ffffff;
+    box-shadow: 0 0 18px rgba(156, 73, 255, 0.28);
+}
+
+body[data-theme="purple"] .btn-padrao:hover {
+    background-color: #7b2fe0;
+}
+
+body[data-theme="purple"] .item-nav.active a,
+body[data-theme="purple"] #textoinicial .title span,
+body[data-theme="purple"] .titulo_quiz_alt,
+body[data-theme="purple"] .rotulo_painel,
+body[data-theme="purple"] .quiz-principal,
+body[data-theme="purple"] #progresso,
+body[data-theme="purple"] .cartao_metrica i {
+    color: #d7a8ff;
+}
+
+body[data-theme="purple"] .item-nav.active a {
+    border-bottom-color: #d7a8ff;
+}
+
+body[data-theme="purple"] #home .fundo_inicio {
+    background: linear-gradient(90deg, rgba(18, 5, 31, 0.86), rgba(72, 20, 118, 0.38), rgba(18, 5, 31, 0.72));
+}
+
+body[data-theme="purple"] #problema {
+    background-image: linear-gradient(90deg, rgba(18, 5, 31, 0.66), rgba(77, 24, 128, 0.28)), url("../assets/imagens/problema\ background.png");
+}
+
+body[data-theme="purple"] #tecnologia {
+    background-image: linear-gradient(90deg, rgba(18, 5, 31, 0.72), rgba(77, 24, 128, 0.25)), url("../assets/imagens/tecnologia\ background.png");
+}
+
+body[data-theme="purple"] #objetivos {
+    background-image: linear-gradient(90deg, rgba(77, 24, 128, 0.22), rgba(18, 5, 31, 0.72)), url("../assets/imagens/objetivos\ background.png");
+}
+
+body[data-theme="purple"] #publico-alvo {
+    background-image: linear-gradient(90deg, rgba(18, 5, 31, 0.72), rgba(77, 24, 128, 0.18)), url("../assets/imagens/publico\ alvo\ background.png");
+}
+
+body[data-theme="purple"] #beneficios {
+    background-image: linear-gradient(90deg, rgba(77, 24, 128, 0.2), rgba(18, 5, 31, 0.72)), url("../assets/imagens/beneficios\ background.png");
+}
+
+body[data-theme="purple"] #aplicacao {
+    background-image: linear-gradient(90deg, rgba(18, 5, 31, 0.92), rgba(77, 24, 128, 0.58)), url("../assets/imagens/aplicaÃ§Ã£o\ background.png");
+}
+
+body[data-theme="purple"] #quizAurora {
+    background:
+        radial-gradient(circle at 78% 22%, rgba(215, 168, 255, 0.2), transparent 32%),
+        radial-gradient(circle at 18% 68%, rgba(156, 73, 255, 0.32), transparent 34%),
+        linear-gradient(90deg, rgba(18, 5, 31, 0.98), rgba(36, 10, 62, 0.94));
+}
+
+body[data-theme="purple"] .dashboard,
+body[data-theme="purple"] .painel_quiz {
+    background: rgba(24, 7, 42, 0.84);
+    border-color: rgba(218, 181, 255, 0.22);
+    box-shadow: 0 22px 70px rgba(12, 3, 21, 0.55);
+}
+
+body[data-theme="purple"] .cabecalho_painel,
+body[data-theme="purple"] .linha_controle,
+body[data-theme="purple"] .item_objeto,
+body[data-theme="purple"] .item_alerta,
+body[data-theme="purple"] .cartao_metrica,
+body[data-theme="purple"] .cabecalho_quiz,
+body[data-theme="purple"] .resposta_quiz {
+    background: rgba(255, 255, 255, 0.07);
+    border-color: rgba(218, 181, 255, 0.16);
+}
+
+body[data-theme="purple"] .linha_controle select,
+body[data-theme="purple"] .form_contato input,
+body[data-theme="purple"] .form_contato textarea {
+    background: rgba(18, 5, 31, 0.88);
+    color: #ffffff;
+    border-color: rgba(218, 181, 255, 0.24);
+}
+
+body[data-theme="purple"] .mapa_radar {
+    border-color: rgba(215, 168, 255, 0.28);
+    background:
+        radial-gradient(circle at center, rgba(215, 168, 255, 0.22) 0 2px, transparent 3px),
+        repeating-radial-gradient(circle at center, rgba(215, 168, 255, 0.2) 0 1px, transparent 1px 54px),
+        linear-gradient(rgba(255,255,255,0.045) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.045) 1px, transparent 1px),
+        rgba(18, 5, 31, 0.92);
+    background-size: auto, auto, 42px 42px, 42px 42px, auto;
+}
+
+body[data-theme="purple"] .linha_rota line,
+body[data-theme="purple"] .linha_rota circle {
+    stroke: #d7a8ff;
+    fill: #d7a8ff;
+}
+
+body[data-theme="purple"] #barraQuiz {
+    background: linear-gradient(90deg, #9c49ff, #d7a8ff);
+    box-shadow: 0 0 16px rgba(156, 73, 255, 0.72);
+}
+
+body[data-theme="purple"] #footer {
+    background: #12051f;
+}
+
+/* TEMA BRANCO */
+body[data-theme="white"] {
+    background-color: #f6f3ff;
+    color: #181226;
+}
+
+body[data-theme="white"] header {
+    background-color: rgba(248, 245, 255, 0.86);
+    border-bottom-color: rgba(89, 57, 133, 0.18);
+}
+
+body[data-theme="white"] #nav_logo span,
+body[data-theme="white"] #nav_logo i,
+body[data-theme="white"] .item-nav a,
+body[data-theme="white"] #btn_mobile,
+body[data-theme="white"] #btn_mobile i {
+    color: #181226 !important;
+}
+
+body[data-theme="white"] .item-nav.active a {
+    color: #593985;
+    border-bottom-color: #593985;
+}
+
+body[data-theme="white"] .btn-padrao {
+    background-color: #593985;
+    color: #ffffff;
+    box-shadow: 0 8px 24px rgba(89, 57, 133, 0.18);
+}
+
+body[data-theme="white"] .btn-padrao:hover {
+    background-color: #43266e;
+}
+
+body[data-theme="white"] #home .fundo_inicio {
+    background: linear-gradient(90deg, rgba(246, 243, 255, 0.88), rgba(246, 243, 255, 0.55), rgba(246, 243, 255, 0.78));
+}
+
+body[data-theme="white"] #problema {
+    background-image: linear-gradient(90deg, rgba(246, 243, 255, 0.82), rgba(246, 243, 255, 0.58)), url("../assets/imagens/problema\ background.png");
+}
+
+body[data-theme="white"] #tecnologia {
+    background-image: linear-gradient(90deg, rgba(246, 243, 255, 0.84), rgba(246, 243, 255, 0.54)), url("../assets/imagens/tecnologia\ background.png");
+}
+
+body[data-theme="white"] #objetivos {
+    background-image: linear-gradient(90deg, rgba(246, 243, 255, 0.54), rgba(246, 243, 255, 0.84)), url("../assets/imagens/objetivos\ background.png");
+}
+
+body[data-theme="white"] #publico-alvo {
+    background-image: linear-gradient(90deg, rgba(246, 243, 255, 0.84), rgba(246, 243, 255, 0.54)), url("../assets/imagens/publico\ alvo\ background.png");
+}
+
+body[data-theme="white"] #beneficios {
+    background-image: linear-gradient(90deg, rgba(246, 243, 255, 0.54), rgba(246, 243, 255, 0.84)), url("../assets/imagens/beneficios\ background.png");
+}
+
+body[data-theme="white"] #aplicacao {
+    background-image: linear-gradient(90deg, rgba(246, 243, 255, 0.92), rgba(246, 243, 255, 0.74)), url("../assets/imagens/aplicaÃ§Ã£o\ background.png");
+}
+
+body[data-theme="white"] #quizAurora {
+    background:
+        radial-gradient(circle at 78% 22%, rgba(89, 57, 133, 0.12), transparent 32%),
+        radial-gradient(circle at 18% 68%, rgba(156, 73, 255, 0.12), transparent 34%),
+        linear-gradient(90deg, #f8f5ff, #eee8ff);
+}
+
+body[data-theme="white"] #textoinicial .title,
+body[data-theme="white"] #textoinicial .descricao,
+body[data-theme="white"] .problema,
+body[data-theme="white"] .problema1,
+body[data-theme="white"] .parProblema,
+body[data-theme="white"] .tecnologia,
+body[data-theme="white"] .tecnologia1,
+body[data-theme="white"] .parTecnologia,
+body[data-theme="white"] .objetivos,
+body[data-theme="white"] .objetivos1,
+body[data-theme="white"] .parObjetivos,
+body[data-theme="white"] .publico-alvo,
+body[data-theme="white"] .publico-alvo1,
+body[data-theme="white"] .parPublico,
+body[data-theme="white"] .beneficios,
+body[data-theme="white"] .beneficios1,
+body[data-theme="white"] .parBeneficios,
+body[data-theme="white"] .aplicacao,
+body[data-theme="white"] .aplicacao1,
+body[data-theme="white"] .parAplicacao,
+body[data-theme="white"] #textoAplicacao,
+body[data-theme="white"] #textoQuiz,
+body[data-theme="white"] .titulo_quiz,
+body[data-theme="white"] .parQuiz {
+    color: #181226;
+}
+
+body[data-theme="white"] #textoinicial .title span,
+body[data-theme="white"] .titulo_quiz_alt,
+body[data-theme="white"] .rotulo_painel,
+body[data-theme="white"] .quiz-principal,
+body[data-theme="white"] #progresso,
+body[data-theme="white"] .cartao_metrica i {
+    color: #593985;
+}
+
+body[data-theme="white"] .dashboard,
+body[data-theme="white"] .painel_quiz {
+    background: rgba(255, 255, 255, 0.76);
+    border-color: rgba(89, 57, 133, 0.18);
+    box-shadow: 0 22px 70px rgba(89, 57, 133, 0.16);
+}
+
+body[data-theme="white"] .cabecalho_painel,
+body[data-theme="white"] .linha_controle,
+body[data-theme="white"] .item_objeto,
+body[data-theme="white"] .item_alerta,
+body[data-theme="white"] .cartao_metrica,
+body[data-theme="white"] .cabecalho_quiz,
+body[data-theme="white"] .resposta_quiz,
+body[data-theme="white"] .resultado_quiz {
+    background: rgba(255, 255, 255, 0.68);
+    border-color: rgba(89, 57, 133, 0.16);
+    color: #181226;
+}
+
+body[data-theme="white"] .cabecalho_painel h2,
+body[data-theme="white"] .dashboard_columns h3,
+body[data-theme="white"] .cartao_metrica strong,
+body[data-theme="white"] .nome_objeto,
+body[data-theme="white"] .item_alerta,
+body[data-theme="white"] #pergunta,
+body[data-theme="white"] .resposta_quiz,
+body[data-theme="white"] .btn_quiz,
+body[data-theme="white"] .resultado_quiz strong {
+    color: #181226;
+}
+
+body[data-theme="white"] .cartao_metrica span,
+body[data-theme="white"] .linha_controle label,
+body[data-theme="white"] .grupo_controle label,
+body[data-theme="white"] .meta_objeto,
+body[data-theme="white"] .item_alerta small,
+body[data-theme="white"] .feedback_quiz span,
+body[data-theme="white"] .resultado_quiz p,
+body[data-theme="white"] .resultado_quiz small,
+body[data-theme="white"] #pontosQuiz {
+    color: #4d425f;
+}
+
+body[data-theme="white"] .linha_controle select,
+body[data-theme="white"] .form_contato input,
+body[data-theme="white"] .form_contato textarea {
+    background: rgba(255, 255, 255, 0.86);
+    color: #181226;
+    border-color: rgba(89, 57, 133, 0.24);
+}
+
+body[data-theme="white"] .mapa_radar {
+    border-color: rgba(89, 57, 133, 0.24);
+    background:
+        radial-gradient(circle at center, rgba(89, 57, 133, 0.22) 0 2px, transparent 3px),
+        repeating-radial-gradient(circle at center, rgba(89, 57, 133, 0.18) 0 1px, transparent 1px 54px),
+        linear-gradient(rgba(89,57,133,0.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(89,57,133,0.08) 1px, transparent 1px),
+        rgba(255, 255, 255, 0.86);
+    background-size: auto, auto, 42px 42px, 42px 42px, auto;
+}
+
+body[data-theme="white"] .ponto_radar::after,
+body[data-theme="white"] .centro_foguete::after {
+    color: #181226;
+    text-shadow: 0 1px 8px rgba(255, 255, 255, 0.9);
+}
+
+body[data-theme="white"] .linha_rota line,
+body[data-theme="white"] .linha_rota circle {
+    stroke: #593985;
+    fill: #593985;
+}
+
+body[data-theme="white"] #barraQuiz {
+    background: linear-gradient(90deg, #593985, #9c49ff);
+    box-shadow: 0 0 16px rgba(89, 57, 133, 0.34);
+}
+
+body[data-theme="white"] .btn_quiz_main {
+    background: rgba(89, 57, 133, 0.12);
+}
+
+body[data-theme="white"] .btn_quiz_sec {
+    background: rgba(156, 73, 255, 0.1);
+}
+
+body[data-theme="white"] #footer {
+    background: #f8f5ff;
+    color: #181226;
+}
+
+body[data-theme="white"] .logo_footer span,
+body[data-theme="white"] .rodape_time h3,
+body[data-theme="white"] .form_contato h3,
+body[data-theme="white"] .rodape_time p,
+body[data-theme="white"] .form_contato label {
+    color: #181226;
+}
+
+body[data-theme="white"] .rodape_marca p,
+body[data-theme="white"] .rodape_base p {
+    color: #4d425f;
+}
+
+/* cinza-lilas no branco */
+body[data-theme="white"]{
+    background-color:#e9e6f1;
+}
+body[data-theme="white"] header{
+    background-color:rgba(234,230,244,.90);
+}
+body[data-theme="white"] #home .fundo_inicio{
+    background:linear-gradient(90deg,rgba(233,230,241,.82),rgba(214,203,239,.50),rgba(233,230,241,.72));
+}
+body[data-theme="white"] .dashboard,
+body[data-theme="white"] .painel_quiz{
+    background:rgba(244,241,250,.82);
+}
+body[data-theme="white"] .cabecalho_painel,
+body[data-theme="white"] .linha_controle,
+body[data-theme="white"] .item_objeto,
+body[data-theme="white"] .item_alerta,
+body[data-theme="white"] .cartao_metrica,
+body[data-theme="white"] .cabecalho_quiz,
+body[data-theme="white"] .resposta_quiz,
+body[data-theme="white"] .resultado_quiz{
+    background:rgba(239,235,248,.78);
+}
+
+body[data-theme="white"] {
+    background-color: #e4e0ee;
+    color: #191226;
+}
+
+body[data-theme="white"] header {
+    background-color: rgba(230, 225, 240, 0.92);
+    border-bottom-color: rgba(136, 92, 196, 0.24);
+}
+
+body[data-theme="white"] #home .fundo_inicio {
+    background:
+        radial-gradient(circle at 72% 24%, rgba(188, 128, 255, 0.34), transparent 34%),
+        linear-gradient(90deg, rgba(228, 224, 238, 0.90), rgba(212, 199, 234, 0.62), rgba(228, 224, 238, 0.78));
+}
+
+body[data-theme="white"] #problema {
+    background-image: linear-gradient(90deg, rgba(228, 224, 238, 0.86), rgba(194, 166, 229, 0.44)), url("../assets/imagens/problema\ background.png");
+}
+
+body[data-theme="white"] #tecnologia {
+    background-image: linear-gradient(90deg, rgba(228, 224, 238, 0.84), rgba(184, 145, 232, 0.42)), url("../assets/imagens/tecnologia\ background.png");
+}
+
+body[data-theme="white"] #objetivos {
+    background-image: linear-gradient(90deg, rgba(183, 143, 235, 0.40), rgba(228, 224, 238, 0.86)), url("../assets/imagens/objetivos\ background.png");
+}
+
+body[data-theme="white"] #publico-alvo {
+    background-image: linear-gradient(90deg, rgba(228, 224, 238, 0.86), rgba(185, 145, 232, 0.40)), url("../assets/imagens/publico\ alvo\ background.png");
+}
+
+body[data-theme="white"] #beneficios {
+    background-image: linear-gradient(90deg, rgba(185, 145, 232, 0.40), rgba(228, 224, 238, 0.86)), url("../assets/imagens/beneficios\ background.png");
+}
+
+body[data-theme="white"] #aplicacao {
+    background-image: linear-gradient(90deg, rgba(228, 224, 238, 0.92), rgba(190, 150, 235, 0.58)), url("../assets/imagens/aplicaÃ§Ã£o\ background.png");
+}
+
+body[data-theme="white"] #quizAurora {
+    background:
+        radial-gradient(circle at 78% 22%, rgba(156, 73, 255, 0.22), transparent 32%),
+        radial-gradient(circle at 18% 68%, rgba(215, 168, 255, 0.34), transparent 34%),
+        linear-gradient(90deg, #e8e2f3, #d8c9f0);
+}
+
+body[data-theme="white"] .dashboard,
+body[data-theme="white"] .painel_quiz {
+    background: rgba(237, 232, 246, 0.86);
+    border-color: rgba(136, 92, 196, 0.28);
+    box-shadow: 0 22px 70px rgba(104, 68, 153, 0.18);
+}
+
+body[data-theme="white"] .cabecalho_painel,
+body[data-theme="white"] .linha_controle,
+body[data-theme="white"] .item_objeto,
+body[data-theme="white"] .cartao_metrica,
+body[data-theme="white"] .cabecalho_quiz,
+body[data-theme="white"] .resposta_quiz,
+body[data-theme="white"] .resultado_quiz {
+    background: rgba(226, 217, 241, 0.76);
+    border-color: rgba(136, 92, 196, 0.22);
+}
+
+body[data-theme="white"] .item_alerta {
+    background: rgba(226, 217, 241, 0.78);
+    border-color: rgba(136, 92, 196, 0.22);
+    color: #191226;
+}
+
+body[data-theme="white"] .pergunta_alerta {
+    background: rgba(255, 230, 109, 0.26);
+    border-color: rgba(255, 179, 71, 0.70);
+    color: #221805;
+    box-shadow: inset 0 0 0 1px rgba(255, 179, 71, 0.18), 0 10px 24px rgba(255, 179, 71, 0.10);
+}
+
+body[data-theme="white"] .pergunta_alerta strong {
+    color: #6d4300;
+}
+
+body[data-theme="white"] .pergunta_alerta small {
+    color: #5f4512;
+}
+
+body[data-theme="white"] .escolha_rota button {
+    border-color: rgba(25, 18, 38, 0.20);
+    color: #050712;
+    box-shadow: 0 8px 18px rgba(25, 18, 38, 0.10);
+}
+
+body[data-theme="white"] .escolha_rota button:hover {
+    border-color: rgba(25, 18, 38, 0.38);
+}
+
+body[data-theme="white"] .aceitar_rota {
+    background: #65ffb7;
+}
+
+body[data-theme="white"] .recusar_rota {
+    background: #ff4f6d;
+    color: #ffffff;
+}
+
+body[data-theme="white"] #textoinicial .title span,
+body[data-theme="white"] .titulo_quiz_alt,
+body[data-theme="white"] .rotulo_painel,
+body[data-theme="white"] .quiz-principal,
+body[data-theme="white"] #progresso,
+body[data-theme="white"] .cartao_metrica i,
+body[data-theme="white"] .item-nav.active a {
+    color: #7b2fe0;
+}
+
+body[data-theme="white"] .btn-padrao,
+body[data-theme="white"] #btn-tema {
+    background: linear-gradient(135deg, #7b2fe0, #c79cff);
+    color: #ffffff;
+}
