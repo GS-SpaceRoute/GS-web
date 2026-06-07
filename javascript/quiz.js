@@ -1,6 +1,6 @@
 const dadosQuiz = [
     {
-        pergunta: "Qual é o objetivo principal da plataforma AURORA?",
+        pergunta: "Qual é o objetivo principal da Space Route?",
         respostas: [
             "Centralizar dados aeroespaciais para prever riscos e sugerir rotas seguras",
             "Substituir totalmente pilotos e operadores humanos",
@@ -8,7 +8,7 @@ const dadosQuiz = [
             "Controlar apenas lançamentos de foguetes"
         ],
         correta: 0,
-        explicacao: "A AURORA integra dados aéreos e orbitais em tempo real para apoiar decisões, prever riscos e calcular rotas mais seguras."
+        explicacao: "A Space Route integra dados aéreos e orbitais em tempo real para apoiar decisões, prever riscos e calcular rotas mais seguras."
     },
     {
         pergunta: "Qual problema real o projeto busca enfrentar?",
@@ -22,7 +22,7 @@ const dadosQuiz = [
         explicacao: "O projeto responde ao aumento do tráfego aéreo e espacial, conflitos de rota, lixo espacial e sistemas de monitoramento separados."
     },
     {
-        pergunta: "Qual ODS é o principal no projeto AURORA?",
+        pergunta: "Qual ODS é o principal no projeto Space Route?",
         respostas: [
             "ODS 3 - Saúde e bem-estar",
             "ODS 6 - Água potável e saneamento",
@@ -41,7 +41,7 @@ const dadosQuiz = [
             "Porque elimina a necessidade de aeroportos"
         ],
         correta: 0,
-        explicacao: "A AURORA pode contribuir para mobilidade mais segura ao reduzir riscos de acidentes e apoiar rotas mais eficientes."
+        explicacao: "A Space Route pode contribuir para mobilidade mais segura ao reduzir riscos de acidentes e apoiar rotas mais eficientes."
     },
     {
         pergunta: "Como o projeto pode contribuir com o ODS 13?",
@@ -216,7 +216,7 @@ function mostrarResult() {
     els.resultado.hidden = false;
     els.resultado.innerHTML = `
         <strong>${porcentagem}% de aproveitamento</strong>
-        <p>Você acertou ${pontos} de ${dadosQuiz.length} perguntas sobre o projeto AURORA.</p>
+        <p>Você acertou ${pontos} de ${dadosQuiz.length} perguntas sobre o projeto Space Route.</p>
         <small>${porcentagem >= 70 ? 'Parabens! Você entendeu bem a proposta da solução.' : 'Revise os objetivos, tecnologias e ODS do projeto para reforçar o conteúdo.'}</small>
     `;
 }
