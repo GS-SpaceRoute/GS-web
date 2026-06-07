@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+#footer {
+    min-height: 100vh;
+    background: #000;
+    color: #fff;
+    padding: 48px 8% 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rodape_conteudo {
+    width: 100%;
+    display: grid;
+    grid-template-columns: minmax(280px, 1fr) minmax(320px, 460px);
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: limitar(48px, 12vw, 170px);
+}
+
+.rodape_esq {
+    min-height: 62vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 2%;
+}
+
+.rodape_marca {
+    max-width: 460px;
+}
+
+.logo_footer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 26px;
+}
+
+.logo_footer img {
+    width: 42px;
+    height: 42px;
+    objeto-fit: contain;
+}
+
+.logo_footer span {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.35rem;
+    line-height: 1;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.rodape_marca p {
+    max-width: 420px;
+    color: #d2d6e2;
+    font-size: 1rem;
+    line-height: 1.65;
+}
+
+.rodape_time {
+    margin-top: 80px;
+}
+
+.rodape_time h3,
+.form_contato h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
+.rodape_time h3 {
+    font-size: 2.15rem;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+
+.rodape_time p {
+    color: #eef2ff;
+    font-size: 0.95rem;
+    margin: 7px 0;
+}
+
+.form_contato {
+    width: 100%;
+    max-width: 460px;
+    display: grid;
+    gap: 8px;
+    text-align: left;
+    padding-top: 18px;
+}
+
+.form_contato h3 {
+    font-size: 1.25rem;
+    font-family: inherit;
+    font-weight: 800;
+    margin-bottom: 28px;
+}
+
+.form_contato label {
+    color: #e5edff;
+    font-size: 0.84rem;
+    font-weight: 800;
+    margin-top: 4px;
+}
+
+.form_contato input,
+.form_contato textarea {
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    border-radius: 7px;
+    background: rgba(255, 255, 255, 0.065);
+    color: #ffffff;
+    padding: 12px 13px;
+    outline: none;
+    resize: vertical;
+    font: inherit;
+}
+
+.form_contato textarea {
+    min-height: 100px;
+}
+
+.form_contato input::placeholder,
+.form_contato textarea::placeholder {
+    color: #a7a7ad;
+}
+
+.form_contato input:focus,
+.form_contato textarea:focus {
+    border-color: rgba(156, 73, 255, 0.9);
+    box-shadow: 0 0 0 3px rgba(156, 73, 255, 0.15);
+}
+
+.form_contato input.error,
+.form_contato textarea.error {
+    border-color: rgba(255, 79, 109, 0.85);
+    box-shadow: 0 0 0 3px rgba(255, 79, 109, 0.12);
+}
+
+.erro_campo {
+    display: block;
+    min-height: 16px;
+    margin-top: -4px;
+    color: #ff8aa0;
+    font-size: 0.78rem;
+    font-weight: 700;
+}
+
+.form_contato .btn-padrao {
+    justify-self: center;
+    margin-top: 16px;
+    padding: 12px 18px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #a130ff, #7a2cff);
+    color: #fff;
+    font-weight: 800;
+    border: 0;
+}
+
+.feed_contato {
+    min-height: 20px;
+    color: #a9ffd7;
+    font-size: 0.86rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.feed_contato.error {
+    color: #ff8aa0;
+}
+
+.rodape_base {
+    padding-top: 18px;
+    text-align: center;
+}
+
+.rodape_base p {
+    color: #8f8f8f;
+    font-size: 0.8rem;
+}
+
+.secao_quiz{padding:60px 0}
+#containerQuiz{background:#0d1224;border:1px solid #2a355f;border-radius:12px;padding:24px}
+.resposta_quiz,#btnProxima{display:block;width:100%;margin:10px 0;padding:12px;border-radius:8px;cursor:pointer}
+
+@media (max-width: 900px) {
+    #footer {
+        min-height: auto;
+        padding: 44px 6% 24px;
+    }
+
+    .rodape_conteudo {
+        grid-template-columns: 1fr;
+        gap: 46px;
+    }
+
+    .rodape_esq {
+        min-height: auto;
+        gap: 44px;
+        padding-left: 0;
+    }
+
+    .rodape_time {
+        margin-top: 0;
+    }
+
+    .form_contato {
+        max-width: 100%;
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 520px) {
+    #footer {
+        text-align: center;
+    }
+
+    .logo_footer {
+        justify-content: center;
+    }
+
+    .rodape_marca p {
+        margin: 0 auto;
+    }
+
+    .form_contato {
+        text-align: left;
+    }
+
+    .rodape_time h3 {
+        font-size: 1.9rem;
+    }
+}
