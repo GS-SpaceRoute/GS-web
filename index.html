@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <link rel="icon" type="image/x-icon" href="./assets/imagens/aurora_planeta.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/problema.css">
+    <link rel="stylesheet" href="css/tecnologia.css">
+    <link rel="stylesheet" href="css/objetivos.css">
+    <link rel="stylesheet" href="css/publico-alvo.css">
+    <link rel="stylesheet" href="css/beneficios.css">
+    <link rel="stylesheet" href="css/aplicacao.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/temas.css">
+
+    <title>AURORA | Monitoramento aeroespacial</title>
+</head>
+<body data-theme="black">
+
+<button id="btn-tema" title="Trocar tema">🩸</button>
+
+<style>
+#btn-tema{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    z-index:99999;
+    width:56px;
+    height:56px;
+    border:none;
+    border-radius:50%;
+    cursor:pointer;
+    font-size:22px;
+    background:linear-gradient(135deg,#7b2fe0,#d7a8ff);
+    color:white;
+    box-shadow:0 8px 24px rgba(123,47,224,.35);
+}
+</style>
+
+    <header>
+        <nav id="navbar">
+            <div id="nav_logo">
+                <i class="fa-solid fa-user-astronaut"></i>
+                <span>AURORA</span>
+            </div>
+
+            <ul id="lista_nav">
+                <li class="item-nav active"><a href="#home">In&iacute;cio</a></li>
+                <li class="item-nav"><a href="#problema">Problema</a></li>
+                <li class="item-nav"><a href="#tecnologia">Tecnologia</a></li>
+                <li class="item-nav"><a href="#objetivos">Objetivos</a></li>
+                <li class="item-nav"><a href="#publico-alvo">P&uacute;blico</a></li>
+                <li class="item-nav"><a href="#beneficios">Benef&iacute;cios</a></li>
+                <li class="item-nav"><a href="#aplicacao">Painel</a></li>
+            </ul>
+
+            <a href="#footer" class="btn-padrao">Fale conosco</a>
+
+            <button id="btn_mobile" aria-label="Abrir menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="menu_mobile">
+            <ul id="lista_nav_mob">
+                <li class="item-nav"><a href="#home">In&iacute;cio</a></li>
+                <li class="item-nav"><a href="#problema">Problema</a></li>
+                <li class="item-nav"><a href="#tecnologia">Tecnologia</a></li>
+                <li class="item-nav"><a href="#objetivos">Objetivos</a></li>
+                <li class="item-nav"><a href="#publico-alvo">P&uacute;blico</a></li>
+                <li class="item-nav"><a href="#beneficios">Benef&iacute;cios</a></li>
+                <li class="item-nav"><a href="#aplicacao">Painel</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main id="conteudo">
+        <section id="home">
+            <div class="fundo_inicio" aria-hidden="true"></div>
+            <div id="textoinicial">
+                <h1 class="title">
+                    Todos os dados.
+                    Todas as rotas.
+                    <span>Em todo lugar.</span>
+                </h1>
+
+                <p class="descricao">
+                    AURORA &eacute; uma plataforma inteligente que integra dados de aeronaves, foguetes, sat&eacute;lites e lixo espacial para apoiar decis&otilde;es seguras em tempo real.
+                </p>
+
+                <div id="botoes_inicio">
+                    <a href="#problema" id="btn_plataforma">
+                        <button class="btn-padrao">
+                            Conhe&ccedil;a a plataforma
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </a>
+
+                    <a href="#aplicacao" id="btn_video">
+                        <button class="btn-padrao">
+                            Ver simulador
+                            <i class="fa-regular fa-circle-play"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <div id="secaoContainer">
+            <section id="problema">
+                <div id="textoProblema">
+                    <h1 class="problema">PROBLEMA</h1>
+                    <h1 class="problema1">REAL IDENTIFICADO</h1>
+                    <p class="parProblema">
+                        O crescimento do tr&aacute;fego a&eacute;reo e espacial aumenta riscos de colis&atilde;o, conflitos de rota, impactos com lixo espacial e falhas de comunica&ccedil;&atilde;o entre sistemas que hoje ainda funcionam de forma descentralizada.
+                    </p>
+                </div>
+            </section>
+
+            <section id="tecnologia">
+                <div id="textoTecnologia">
+                    <h1 class="tecnologia">TECNOLOGIAS</h1>
+                    <h1 class="tecnologia1">UTILIZADAS</h1>
+                    <p class="parTecnologia">
+                        A solu&ccedil;&atilde;o combina APIs aeron&aacute;uticas e orbitais, radares, sat&eacute;lites, GNSS/GPS, banco de dados em tempo real e an&aacute;lise preditiva com &aacute;rvore de decis&atilde;o e intelig&ecirc;ncia artificial.
+                    </p>
+                </div>
+            </section>
+
+            <section id="objetivos">
+                <div id="textoObjetivos">
+                    <h1 class="objetivos">OBJETIVOS</h1>
+                    <h1 class="objetivos1">DO PROJETO</h1>
+                    <p class="parObjetivos">
+                        Centralizar o monitoramento aeroespacial, identificar riscos automaticamente, gerar alertas em tempo real e calcular rotas mais seguras para aeronaves, foguetes e opera&ccedil;&otilde;es orbitais cr&iacute;ticas.
+                    </p>
+                </div>
+            </section>
+
+            <section id="publico-alvo">
+                <div id="textoPublico">
+                    <h1 class="publico-alvo">P&Uacute;BLICO</h1>
+                    <h1 class="publico-alvo1">ALVO</h1>
+                    <p class="parPublico">
+                        Companhias a&eacute;reas, empresas aeroespaciais, operadores de sat&eacute;lites, centros de controle, &oacute;rg&atilde;os reguladores, institui&ccedil;&otilde;es de pesquisa e equipes respons&aacute;veis por lan&ccedil;amentos e retornos de foguetes.
+                    </p>
+                </div>
+            </section>
+
+            <section id="beneficios">
+                <div id="textoBeneficios">
+                    <h1 class="beneficios">BENEF&Iacute;CIOS</h1>
+                    <h1 class="beneficios1">DO PROGRAMA</h1>
+                    <p class="parBeneficios">
+                        Aumenta a seguran&ccedil;a operacional, reduz riscos de acidentes, otimiza rotas, melhora a efici&ecirc;ncia do tr&aacute;fego e contribui com os ODS 9, 11 e 13 ao apoiar infraestrutura inovadora, mobilidade segura e menor consumo de combust&iacute;vel.
+                    </p>
+                </div>
+            </section>
+
+            <section id="aplicacao">
+                <div id="textoAplicacao">
+                    <h1 class="aplicacao">SIMULADOR</h1>
+                    <h1 class="aplicacao1">AURORA LIVE</h1>
+                    <p class="parAplicacao">
+                        Mini jogo feito pela perspectiva do foguete AURORA-F1: objetos se movem ao redor da nave, o sistema calcula riscos por proximidade e a rota aceita muda a dire&ccedil;&atilde;o real do foguete.
+                    </p>
+                </div>
+
+                <div class="dashboard" aria-label="Painel interativo de monitoramento aeroespacial">
+                    <div class="cabecalho_painel">
+                        <div>
+                            <span class="rotulo_painel">Status operacional</span>
+                            <h2>Monitoramento em tempo real</h2>
+                        </div>
+                    </div>
+
+                    <div class="grade_metricas">
+                        <article class="cartao_metrica">
+                            <span>Objetos no raio pr&oacute;ximo</span>
+                            <strong id="qtdRastreados">0</strong>
+                        </article>
+                        <article class="cartao_metrica">
+                            <span>Alertas ativos</span>
+                            <strong id="qtdAlertas">0</strong>
+                        </article>
+                        <article class="cartao_metrica">
+                            <span>Foguete monitorado</span>
+                            <strong id="nomeFoguete">AURORA-F1</strong>
+                        </article>
+                    </div>
+
+                    <div class="linha_controle linha_modos">
+                        <div class="grupo_controle">
+                            <label for="modoBtn">Modo de operação</label>
+                            <select id="modoBtn">
+                                <option value="orbital">Orbital</option>
+                                <option value="aereo">Aéreo</option>
+                            </select>
+                        </div>
+
+                        <div class="grupo_controle">
+                            <label for="filtroRisco">Filtro de risco</label>
+                            <select id="filtroRisco">
+                                <option value="todos">Todos</option>
+                                <option value="critico">Crítico</option>
+                                <option value="alto">Alto</option>
+                                <option value="modorado">Moderado</option>
+                                <option value="baixo">Baixo</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div id="mapaRadar" class="mapa_radar" aria-label="Mapa de radar simulado pela perspectiva do foguete AURORA-F1"></div>
+
+                    <div class="dashboard_columns">
+                        <div>
+                            <h3>Objetos ao redor do foguete</h3>
+                            <div id="listaObjetos" class="objeto_list"></div>
+                        </div>
+                        <div>
+                            <h3>Rotas sugeridas e decis&otilde;es</h3>
+                            <div id="painelAlerta" class="painel_alerta"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section id="quizAurora">
+            <div id="textoQuiz">
+                <span class="quiz-principal">DESAFIO DE PERGUNTAS</span>
+                <h1 class="titulo_quiz">QUIZ</h1>
+                <h1 class="titulo_quiz titulo_quiz_alt">AURORA</h1>
+                <p class="parQuiz">
+                    Responda perguntas sobre a proposta da plataforma AURORA, sua arquitetura, seus objetivos, tecnologias utilizadas e impactos ligados aos ODS.
+                </p>
+            </div>
+
+            <div class="painel_quiz" aria-label="Quiz interativo sobre o projeto AURORA">
+                <div class="cabecalho_quiz">
+                    <div>
+                        <span id="progresso">Pergunta 1/10</span>
+                        <h2 id="pergunta">Carregando pergunta...</h2>
+                    </div>
+                    <strong id="pontosQuiz">0 pontos</strong>
+                </div>
+
+                <div class="trilha_quiz" aria-hidden="true">
+                    <div id="barraQuiz"></div>
+                </div>
+
+                <div id="respostasQuiz" class="respostas_quiz"></div>
+
+                <div id="feedQuiz" class="feedback_quiz" aria-live="polite"></div>
+
+                <div class="acoes_quiz">
+                    <button id="btnProxima" class="btn_quiz btn_quiz_main" type="button" disabled>Próxima pergunta</button>
+                    <button id="btnReiniciar" class="btn_quiz btn_quiz_sec" type="button">Reiniciar Quiz</button>
+                </div>
+
+                <div id="resultQuiz" class="resultado_quiz" hidden></div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer">
+        <section class="rodape_conteudo">
+            <div class="rodape_esq">
+                <div class="rodape_marca">
+                    <div class="logo_footer">
+                        <!-- <i class="fa-solid fa-user-astronaut"></i> -->
+                        <span>AURORA</span>
+                    </div>
+
+                    <p>
+                        Plataforma integrada para monitoramento, gerenciamento e navega&ccedil;&atilde;o a&eacute;rea e orbital.
+                    </p>
+                </div>
+
+                <div class="rodape_time">
+                    <h3>Integrantes</h3>
+                    <p>Giovana Vit&oacute;ria - RM574054</p>
+                    <p>Giovane da Costa - RM568709</p>
+                    <p>Mie Flora - RM570303</p>
+                    <p>Pedro Simionato - RM572477</p>
+                    <p>Thiago Santos - RM570806</p>
+                </div>
+            </div>
+
+            <form id="formContato" class="form_contato" novalidate>
+                <h3>FALE CONOSCO</h3>
+
+                <label for="nomeContato">Nome</label>
+                <input type="text" id="nomeContato" name="name" placeholder="Seu nome">
+                <small id="erroNome" class="erro_campo"></small>
+
+                <label for="emailContato">E-mail</label>
+                <input type="email" id="emailContato" name="email" placeholder="seuemail@exemplo.com">
+                <small id="erroEmail" class="erro_campo"></small>
+
+                <label for="msgContato">Mensagem</label>
+                <textarea id="msgContato" name="message" rows="4" placeholder="Digite sua mensagem"></textarea>
+                <small id="erroMsg" class="erro_campo"></small>
+
+                <button type="submit" class="btn-padrao">Enviar mensagem</button>
+                <p id="feedContato" class="feed_contato" aria-live="polite"></p>
+            </form>
+        </section>
+
+        <div class="rodape_base">
+            <p>&copy; 2026 AURORA | Global Solution FIAP</p>
+        </div>
+    </footer>
+
+    <script src="javascript/slide-inicio.js"></script>
+    <script src="javascript/form.js"></script>
+    <script src="javascript/script.js"></script>
+    <script src="javascript/quiz.js"></script>
+    <script src="javascript/temas.js"></script>
+
+</body>
+</html>
