@@ -1,0 +1,147 @@
+header {
+    width: 100%;
+    padding: 28px 8%;
+    position: fixed;       
+    top: 0;                
+    left: 0;                
+    z-index: 1000;         
+    background-color: #111; 
+    box-sizing: border-box;
+
+   background-color: rgba(17, 17, 17, 0.75);
+   backdrop-filter: blur(10px);
+   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+   -webkit-backdrop-filter: blur(10px);
+
+
+}
+
+#navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#nav_logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#nav_logo i{
+    font-size: 32px;
+    color: white;
+}
+
+#nav_logo span{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: white;
+}
+
+
+
+#lista_nav {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+
+}
+
+.item-nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.item-nav.active a {
+    color: white;
+    border-bottom: 2px solid #593985; 
+    padding-bottom: 4px;
+
+}
+
+
+#btn_mobile {
+display: none;
+
+}
+
+#menu_mobile {
+display: none;
+
+}
+
+
+
+
+@media screen and (max-width: 1170px) {
+    #lista_nav,
+    #navbar .btn-padrao {
+            display: none;
+
+    }
+
+    #btn_mobile {
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        cursor: pointer;
+
+        color: white !important;
+        position: relative;
+       
+    }
+
+    #menu_mobile.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        padding: 20px 14px;
+
+    }   
+
+    #lista_nav_mob{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 12px 0px;
+    }
+
+     #lista_nav_mob .item-nav {
+        list-style: none;
+        text-align: center;
+
+
+     }
+
+
+}
+
+#nav_logo img{
+    width: 34px;
+    height: 34px;
+    objeto-fit: contain;
+}
+
+
+.logo_aurora {
+    width: 46px;
+    height: 46px;
+    objeto-fit: contain;
+    display: block;
+}
+
+#nav_logo .logo_aurora {
+    flex: 0 0 auto;
+}
+
+.secao_quiz{padding:60px 0}
+#containerQuiz{background:#0d1224;border:1px solid #2a355f;border-radius:12px;padding:24px}
+.resposta_quiz,#btnProxima{display:block;width:100%;margin:10px 0;padding:12px;border-radius:8px;cursor:pointer}
