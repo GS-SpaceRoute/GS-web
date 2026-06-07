@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Questrial&display=swap');
+#beneficios{
+    width: 100%;
+    min-height: 100vh;
+
+    background-image: url("../assets/imagens/beneficios\ background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding-right: 13%;
+}
+
+#textoBeneficios{
+    width: 35%;
+
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+    margin-top: -40px;
+}
+
+.beneficios,
+.beneficios1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: limitar(45px, 5vw, 70px);
+    font-weight: 300;
+    line-height: 0.9;
+    margin: 0;
+    color: white;
+    
+    
+}
+
+.parBeneficios{
+    font-family: "Questrial", sans-serif;
+    font-size: limitar(16px, 1.4vw, 25px);
+    line-height: 1.15;
+    margin-top: 15px;
+    color: white;
+
+
+}
+
+@media(max-width: 1024px){
+    #textoBeneficios{
+        width: 45%;
+    }
+}
+
+@media(max-width: 768px){
+    #beneficios{
+        justify-content: center;
+        align-items: flex-start;
+        padding: 120px 8% 0;
+        background-position: 35% center;
+    }
+
+    #textoBeneficios{
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .beneficios,
+    .beneficios1{
+        font-size: limitar(42px, 12vw, 60px);
+    }
+
+    .parBeneficios{
+        font-size: 16px;
+        line-height: 1.25;
+        max-width: 430px;
+    }
+}
+.secao_quiz{padding:60px 0}
+#containerQuiz{background:#0d1224;border:1px solid #2a355f;border-radius:12px;padding:24px}
+.resposta_quiz,#btnProxima{display:block;width:100%;margin:10px 0;padding:12px;border-radius:8px;cursor:pointer}
